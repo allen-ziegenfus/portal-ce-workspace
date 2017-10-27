@@ -48,8 +48,8 @@ java.io.FileNotFoundException: null/../logs/liferay.2017-10-27.xml (No such file
 	at com.liferay.portal.util.InitUtil.initWithSpring(InitUtil.java:213)
 	at com.liferay.portal.util.InitUtil.initWithSpring(InitUtil.java:202)
 	at com.liferay.portal.tools.DBUpgrader.main(DBUpgrader.java:97)
-11:18:56,805 ERROR [main][ModuleFrameworkAdapterHelper:67] Unable to configure the class loader for the module framework
-11:18:56,807 ERROR [main][ModuleFrameworkAdapterHelper:81] Unable to load the module framework
+11:10:55,933 ERROR [main][ModuleFrameworkAdapterHelper:67] Unable to configure the class loader for the module framework
+11:10:55,935 ERROR [main][ModuleFrameworkAdapterHelper:81] Unable to load the module framework
 Exception in thread "main" java.lang.ExceptionInInitializerError
 	at com.liferay.portal.util.InitUtil.initWithSpring(InitUtil.java:220)
 	at com.liferay.portal.util.InitUtil.initWithSpring(InitUtil.java:202)

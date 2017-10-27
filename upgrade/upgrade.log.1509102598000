@@ -6,7 +6,7 @@ java.io.FileNotFoundException: null/../logs/liferay.2017-10-27.log (No such file
 	at java.io.FileOutputStream.open(FileOutputStream.java:270)
 	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
 	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
-	at org.apache.log4j.FileAppender.setFile(FileAppender.java:294)
+	at org.apache.log4j.FileAppender.setFile(FileAppender.java:305)
 	at org.apache.log4j.FileAppender.activateOptions(FileAppender.java:165)
 	at org.apache.log4j.rolling.RollingFileAppender.activateOptions(RollingFileAppender.java:179)
 	at org.apache.log4j.config.PropertySetter.activate(PropertySetter.java:307)
@@ -48,8 +48,8 @@ java.io.FileNotFoundException: null/../logs/liferay.2017-10-27.xml (No such file
 	at com.liferay.portal.util.InitUtil.initWithSpring(InitUtil.java:213)
 	at com.liferay.portal.util.InitUtil.initWithSpring(InitUtil.java:202)
 	at com.liferay.portal.tools.DBUpgrader.main(DBUpgrader.java:97)
-11:18:56,805 ERROR [main][ModuleFrameworkAdapterHelper:67] Unable to configure the class loader for the module framework
-11:18:56,807 ERROR [main][ModuleFrameworkAdapterHelper:81] Unable to load the module framework
+11:09:58,247 ERROR [main][ModuleFrameworkAdapterHelper:67] Unable to configure the class loader for the module framework
+11:09:58,249 ERROR [main][ModuleFrameworkAdapterHelper:81] Unable to load the module framework
 Exception in thread "main" java.lang.ExceptionInInitializerError
 	at com.liferay.portal.util.InitUtil.initWithSpring(InitUtil.java:220)
 	at com.liferay.portal.util.InitUtil.initWithSpring(InitUtil.java:202)
